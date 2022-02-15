@@ -1,0 +1,9 @@
+<nav class="navbar navbar-light bg-light">
+  <a class="navbar-brand">Wikinimous</a>
+</nav>
+
+<% @articles.each do |article| %>
+  <li>
+    <%= article.title %>
+  </li>
+<% end %>
